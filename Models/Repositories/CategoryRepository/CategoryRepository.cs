@@ -62,6 +62,7 @@ namespace Real_Estate_Dapper_Api.Models.Repositories.CategoryRepository
             }
         }
 
+        //
         public async void UpdateCategory(UpdateCategoryDto categoryDto)
         {
             string query = "Update Category Set CategoryName=@categoryName,CategoryStatus=@categoryStatus Where CategoryID=@categoryID";
